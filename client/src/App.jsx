@@ -54,7 +54,7 @@ function App() {
         </p>
 
         <Buy state={state} />
-        {/* <Memos state={state} /> */}
+        <Memos state={state} />
       </div>
     </>
   );
