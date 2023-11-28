@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+.img-fluid {
+  width: 100%;
+  height: 1%; /* Adjusted height to 5%, you can change this value */
+}
+@media (max-width: 768px) {
+  img {
+    height: auto;
+    max-height: 300px; /* Adjust the max-height based on your design */
+  }
+}
+.responsive-image {
+  height: auto;
+  max-height: 100%; /* Set a max-height if needed */
+}
